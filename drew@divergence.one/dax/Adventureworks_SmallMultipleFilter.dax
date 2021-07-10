@@ -1,0 +1,10 @@
+﻿EVALUATE
+SUMMARIZECOLUMNS (FL
+DimCustomer[CommuteDistance]
+,DimDate[EnglishDayNameOfWeek] 
+,DimSalesTerritory[SalesTerritoryRegion]
+,FILTER(VALUES(DimProduct),DimProduct[ProductSubcategoryKey]=1)
+,"a0",SUM(FactInternetSales[SalesAmount])
+,"a1",AVERAGE(FactInternetSales[SalesAmount])
+,"cd",DISTINCTCOUNT(FactInternetSalesReason[SalesOrderNumber])
+)

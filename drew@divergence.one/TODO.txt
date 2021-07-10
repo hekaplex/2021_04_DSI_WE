@@ -1,0 +1,6 @@
+TODO: debug ML  
+TODO scatterplot across off vs def 
+DRUTODO powerpivot 
+DRUTUDU assoc 
+drutudu opt 
+drutudu jupyter to preso 

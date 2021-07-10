@@ -1,0 +1,10 @@
+Rest of Company Units 
+    = IF(
+        
+            NOT(ISBLANK(RELATED(ProductDim[Segment]) <> "Accessory"))
+            &&
+            NOT(ISBLANK(RELATED(ProductDim[Segment]) <> "Youth"))
+
+            , Sales[Units],0)
+Accessory Units = IF(RELATED(ProductDim[Segment]) == "Accessory", Sales[Units],0)
+Youth Units = IF(RELATED(ProductDim[Segment]) == "Youth", Sales[Units],0)

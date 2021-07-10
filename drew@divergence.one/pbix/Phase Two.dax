@@ -1,0 +1,8 @@
+Phase Two = 
+    SUMMARIZECOLUMNS(
+      ROLLUPADDISSUBTOTAL(
+        'LocalDateTable_fdfa855b-1e8b-45bc-a1ad-7a6289dccfaa'[Year], "IsGrandTotalRowTotal"
+      ),
+     'Phase One',
+      "PY_Sales", 'Sales'[PY Sales]
+    )

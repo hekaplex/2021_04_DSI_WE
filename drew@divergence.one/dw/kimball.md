@@ -1,0 +1,41 @@
+Process Instrumentation
+===============================
+Data Profiling (1)
+Change Data Capture (2)
+Extract System (3) 
+Data Cleansing System (4) 
+Deduplication (7) 
+
+Slowly Changing Dimension (SCD) Manager (9) 
+Surrogate Key Generator (10) 
+Surrogate Key Pipeline (14)
+Hierarchy Manager (11)
+Special Dimensions Manager (12)
+Fact Table Builders (13) 
+Multi-Valued Bridge Table Builder (15)
+Late Arriving Data Handler (16)
+
+
+
+Dimension Manager (17)
+Fact Table Provider (18)
+Aggregate Builder (19)
+Sorting (28)
+OLAP Cube Builder (20)
+Data Propagation Manager (21)
+Lineage and Dependency (29)
+Metadata Repository (34)
+
+Error Event Tracking (5) 
+Audit Dimension Creation (6)
+Data Conformance (8) 
+Job Scheduler (22)
+Backup System (23)
+Recovery and Restart (24)
+Version Control (25)
+Version Migration (26)
+Workflow Monitor (27)
+Problem Escalation (30)
+Paralleling and Pipelining (31)
+Security (32) 
+Compliance Manager (33) 

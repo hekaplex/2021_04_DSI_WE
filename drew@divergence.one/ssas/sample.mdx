@@ -1,0 +1,13 @@
+ SELECT 
+	NON EMPTY {
+         [Measures].[Internet Sales Amount] 
+        } 
+    ON COLUMNS, 
+    NON EMPTY { 
+            (
+                [Customer].[Customer].[Customer].ALLMEMBERS 
+            * [Organization].[Currency Code].[Currency Code].ALLMEMBERS 
+            * [Account].[Account Type].[Account Type].ALLMEMBERS ) 
+        } 
+
+ON ROWS FROM [Adventure Works] 

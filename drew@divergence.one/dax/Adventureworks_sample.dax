@@ -1,0 +1,19 @@
+﻿// DAX Query
+DEFINE
+  VAR __DS0Core = 
+    SUMMARIZECOLUMNS(
+      'DimProduct'[ModelName],
+      "SumSalesAmount", CALCULATE(SUM('FactInternetSales'[SalesAmount]))
+    )
+
+  VAR __DS0PrimaryWindowed = 
+    TOPN(1001, __DS0Core, 'DimProduct'[ModelName], 0)
+
+EVALUATE
+  __DS0PrimaryWindowed
+
+ORDER BY
+  'DimProduct'[ModelName] DESC
+
+
+// Direct Query

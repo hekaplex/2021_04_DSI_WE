@@ -1,0 +1,26 @@
+Extract
+	Accessing data functions
+	Binary functions
+    Lines functions
+Transform
+    Table Level
+        Table functions
+    List Level
+        List functions
+    Record Level
+        Record functions
+    Column Level
+        Combiner functions*
+        Number functions
+        Replacer functions
+        Splitter functions*
+        Text functions
+        Time functions
+        Uri functions
+        Value functions
+Control Flow
+    Error handling
+    Expression functions
+    Function values
+    Logical functions        
+    Type functions
