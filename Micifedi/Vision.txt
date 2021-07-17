@@ -1,1 +1,3 @@
 I Plan to use SQL and PBI to analyze this travel dataset
+#Target: Data Analyst Project, stretch goal Data Scientist
+#TODO - add link(s) to dataset source(s) when found.

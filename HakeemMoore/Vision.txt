@@ -1,1 +1,4 @@
 It would be my intent to focus my Data Science project on either Cybersecurity breaches that impact our supply chains, or Environmental illnesses military Veterans contracted in Iraq between 2000 to present.
+#Target: Data Scientist
+https://www.kaggle.com/andrewkronser/cve-common-vulnerabilities-and-exposures
+#TODO - pick technologies for layers storage/analysis/model production & consumption and work through them first

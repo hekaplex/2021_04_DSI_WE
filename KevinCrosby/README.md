@@ -45,3 +45,6 @@ Power BI. This is important for transcribing handwritten text into typed text fo
 In theory, a supervised machine learning model can be created to predict the text of any handwritten document (in English).
 
 My secondary and tertiary choices would be to do object/facial recognition, or algorithmic trading.
+#Target: Data Scientist
+#TODO - add link(s) to dataset source(s) when found.
+#TODO - pick first three technologies for layers storage/analysis/model and work through them first

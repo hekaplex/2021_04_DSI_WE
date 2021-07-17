@@ -7,3 +7,6 @@ Repository for proof of participation and Capstone work
 
 I want to start the capstone project with the Employee Burn out Rate dataset. From
 https://www.kaggle.com/blurredmachine/are-your-employees-burning-out
+#Target: Data Scientist
+#TODO: try binary classification model on Y/N base on median/mean of score
+#TODO: Decompose by categories on target to see if multiple models makes sense
